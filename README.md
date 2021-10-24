@@ -12,3 +12,8 @@ Then use the instance to run the getPath method. The return is a 2d array of of 
 To display all of the cordinates, run the print method
 
 To visually see the path, run the display method.
+
+An example is seen in BaseFile.java
+
+
+This is a version 2 of the algorithm where now, weights can be added that add to the cost. Walls are represented with a '-1'. A zero extra cost tile uses a 0 and any number above 0 adds that much extra to the cost.
